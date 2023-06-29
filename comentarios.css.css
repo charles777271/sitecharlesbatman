@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: black; 
+    color:#fff;
+    font-family:'Kdam Thmor Pro',sans-serif;  
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+nav {
+    width: 60%;
+}
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:'Kdam Thmor Pro',sans-serif;
+
+}
+
+li:hover {
+    color:#d21617;
+}
+
+.actor-cards-container {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    
+    width: 500%;
+    display: grid;
+    row-gap: 30px;   
+}
+
+.card {
+    width: 200%;
+    height: 900px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    padding: 0 0 10px 30px;
+    color:#fff;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+
+
+.indice{
+    margin-top: 50px;
+    margin-left: 630px;
+    
+}
+
+.banner-1{
+    background-image: url(https://cdn.britannica.com/11/215011-050-3127A07E/American-actor-Keanu-Reeves-2014.jpg);
+    text-align: left;
+    margin-top: 1px;
+    width: 200px;
+    height: 300px;
+    margin-left: 43%;
+    
+}
+
+.banner-2{
+    background-image: url(data:image/jpeg;base64,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);
+    width: 200px;
+    height: 300px;
+    margin-left: 43%;
+    margin-top: 30px;
+}
+
+.banner-3{
+    background-image: url(https://www.ofuxico.com.br/wp-content/uploads/2023/06/arnold-schwarzenegger-1.jpg);
+    width: 200px;
+    height: 300px;
+    margin-left: 43%;
+    margin-top: 30px;
+}
+
+.banner-4{
+    background-image: url(https://api.dialbrasil.com.br/webroot/files/Contents/image_medium_name/20211111121244Madonna-ira-dirigir-sua-propria-cinebiografia.jpg);
+    width: 200px;
+    height: 300px;
+    margin-left: 43%;
+    margin-top: 30px;
+}
+
+.comentarios{
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    height:300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo2{
+    
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+span {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+

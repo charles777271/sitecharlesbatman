@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;     
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+nav {
+    width: 60%;
+}
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:'Kdam Thmor Pro',sans-serif;
+
+}
+
+li:hover {
+    color:#d21617;
+}
+#logo{
+    width: 150px;
+    height: auto;
+
+}
+#banner {
+    background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;        
+    height: 600px;
+
+}
+footer {
+    height:300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color:#fff;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;   
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image:url(https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/10/17/708985444-batman-foto-nova-robert-pattinson-divulgacao-warner.jpg);
+}
+.banner-2 {
+    background-image: url(https://pbs.twimg.com/media/EHNCAiwXUAcgB_J.jpg)
+}
+.banner-3 {
+    background-image: url(https://cdn.ome.lt/RyTWxMVUwK84GT8gtnFFI9djcHw=/1200x630/smart/extras/conteudos/jeffrey-wright.jpg)
+}
+
+.banner-4 {
+    background-image: url(https://musicaecinema.com/wp-content/uploads/2023/04/robert-pattinson-the-batman-1024x576.png.webp)
+}
+.banner-5 {
+    background-image: url(https://cinepop.com.br/wp-content/uploads/2022/03/kravitz-cinepop.jpg)
+}
+.banner-6 {
+    background-image: url(https://i.em.com.br/ssp7eHe7yUaG1QV5HrEDzJRqfE0=/1200x720/smart/imgsapp.em.com.br/app/noticia_127983242361/2022/03/01/1348993/os-atores-robert-pattinson-e-zoe-kravitz-de-perfil-com-o-sol-poente-ele-usa-a-mascara-do-batman_1_29953.jpg)
+}
+.banner-7 {
+    background-image: url(https://64.media.tumblr.com/ba250918db65208529c12ef3c20f80da/cea773367459ca89-95/s1280x1920/a32ef1039886a355c09c53dc23161eff4d438129.jpg)
+}
+.banner-8 {
+    background-image: url(https://johto.legiaodosherois.com.br/wp-content/uploads/2022/02/legiao_p5edKDJvmwXb.png)
+}
+.banner-9 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg)
+}

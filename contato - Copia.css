@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: black; 
+    color:#fff;
+    font-family:'Kdam Thmor Pro',sans-serif;  
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+nav {
+    width: 60%;
+}
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:'Kdam Thmor Pro',sans-serif;
+
+}
+
+li:hover {
+    color:#d21617;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+#contato{
+
+    display: block;
+    height:100px;
+    margin-top: 30px;
+    
+    
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items:center;
+}
+
+textarea{
+    resize: none;
+    background-color: #000000
+}
+
+
+.justified {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    height:300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo2{
+    
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#name {
+    
+    font-size: 20px;
+    height: 40px;
+    
+}
+span {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#email {
+    font-size: 20px;
+    height: 40px;
+
+}
+
+#tel{
+    font-size: 20px;
+    height: 40px;
+}
+
+#comentario{
+    font-size: 20px;
+    height: 60px;
+}
+
+#button {
+    font-size: 20px;
+    margin-left: auto;  
+    margin-right: auto;
+    display: block;
+    width: 5%;
+    margin-top: 20px;
+    background-color: #d21617;   
+    
+}
+
+.button:hover {
+    color:#000;
+}
+
+
+
